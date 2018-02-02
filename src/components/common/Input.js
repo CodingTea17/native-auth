@@ -6,6 +6,7 @@ const Input = ({ label, value, onChangeText, placeholder, secureTextEntry }) => 
     <View style={styles.containerStyle}>
       <Text style={styles.labelStyle}>{label}</Text>
       <TextInput
+        autoCapitalize={'none'}
         secureTextEntry={secureTextEntry}
         placeholder={placeholder}
         autoCorrect={false}
